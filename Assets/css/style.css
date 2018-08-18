@@ -1,0 +1,70 @@
+/*Standard Headers and Body - Used to help mimic original homework design scheme*/
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+}
+
+body{
+    background: url(../images/paper_3.png);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #777;
+    padding-bottom: 70px;
+    overflow-y: scroll;
+    
+}
+
+a{
+    color: darkgrey;
+}
+
+/* Style changes to existing bootstrap elements */
+
+.navbar-brand{
+    color:#4aaaa5 !important;
+    margin-left: 10px;
+    font-size: 20pt;
+}
+
+.nav-pills > li > a.active {
+    background-color:#4aaaa5 !important;
+    color: white !important;
+  }
+
+.nav-pills > li > a:hover {
+    color: lightgrey !important;
+  }
+  
+.nav-link-color {
+    color: #4aaaa5 !important;
+  }
+
+.container{
+    background-color: white;
+    margin: 15px auto;
+    margin-bottom: 20px auto;
+    padding: 20px;
+}
+
+.card{
+    margin: 5px;
+    width: 100%;
+}
+
+.card-img-overlay{
+    position: absolute;
+    padding: 0px;
+    top: 75%;
+}
+
+.card-title{
+    text-align: center;
+    color: white;
+    background-color:#4aaaa5;
+    font-size: 20pt;
+}
+
+

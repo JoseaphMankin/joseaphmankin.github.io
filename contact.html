@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Bootstap Portfoio</title>
-    <!-- Added Viewport Line. Note: This is the Bootstrap version which differs from the Emmett one slightly-->
+    <!-- Added Viewport Line-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Style sheets for Bootstrap, FontAwesome for icons and my own for tweeks -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
@@ -16,58 +16,54 @@
 
 <body>
 
-
     <nav class="navbar navbar-expand{-sm|-md|-lg|-xl} navbar-light bg-light">
         <span class="navbar-brand mb-0 h1">Joseaph Mankin</span>
         <ul class="nav nav-pills justify-content-end">
             <li class="nav-item">
-                <a class="nav-link active" href="index.html">About</a>
+                <a class="nav-link" href="index.html">About</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link active" href="contact.html">Contact</a>
             </li>
 
         </ul>
     </nav>
 
+    <div class="row container">
+        <div class="col-12">
+            <h3>Contact</h3>
+            <hr>
+            <form>
+                <div class="form-group">
+                    <label for=" exampleInputEmail1 ">Name</label>
+                    <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp
+                " placeholder="John Smith ">
+                </div>
 
-    <div class="container">
+                <div class="form-group ">
+                    <label for="exampleInputEmail1 ">Email address</label>
+                    <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp
+                " placeholder="example@gmail.com ">
+                    <small id="emailHelp " class="form-text text-muted ">We'll never share your email with anyone else.</small>
+                </div>
 
-        <h3>About Me</h3>
-        <hr>
-        <div class="row">
-            <div class="col-4">
-                <img src="Assets/images/JoeHeadshot.JPG" alt="Joe Headshot" class="rounded img-responsive" width="100%" height="auto">
-            </div>
-            <div class="col-8">
-                <p>Hi everyone. My name is Joe and I'm an aspiring full stack developer. Are you looking to make a barely functional
-                    website with just the most rudimentary CSS added? Well look no further!</p>
-                <p>With nearly 3 weeks of programming experience, I'm prepared to dazzle you with the latest cutting-edge techniques
-                    like:
-                </p>
-                <ul>
-                    <li>Using
-                        <em>Float</em> to make your page all "artsy". You know, like a drunken Picasso.</li>
-                    <li>Using Git to maybe do that one thing that usually works sometimes (all from the Terminal, no less!)</li>
-                    <li>Tidying up that sloppy code using the patented "Format Document" method.</li>
-                    <li>And lots and lots of Googling! (I'm also well versed in frantic YouTube searches)</li>
-                </ul>
-                <p>But don't take my word for it. Just look at this fancy pants website you're on right now! Some might say
-                    it's just a duplication of the homework we were assigned, but to that I say, "Man, I wish it was that
-                    good!"
-                </p>
+                <div class="form-group ">
+                    <label for="exampleInputEmail1 ">Message</label>
+                    <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp
+                " placeholder="John Smith ">
+                </div>
 
-            </div>
+                <button type="submit " class="btn btn-primary ">Submit</button>
+            </form>
         </div>
     </div>
 
     <footer>
 
         <nav class="navbar fixed-bottom navbar-secondary bg-secondary justify-content-center">
-            <!-- Wasn't technically part of the assignment, but wanted to play w/ social buttons-->
             <ul class="nav">
                 <li class="nav-item">
                     <a class="nav-link active" href="https://github.com/JoseaphMankin">
@@ -88,6 +84,7 @@
         </nav>
 
     </footer>
+
 </body>
 
 </html>
