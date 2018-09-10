@@ -50,20 +50,23 @@ a:hover{
 
 .nav{
     background:#662124;
-    
-    /* border-bottom: 5px solid #00cccb;     */
+    text-align: center;
+    float: none;
+    width: 100%;
 }
 
 .nav-item{
     font-size: 20px;
+    text-align: center;
 }
 
-footer{
-    width: 100%;
-}
 .navbar{
+    padding: 0px;
     width: 100%;
+    text-align: center;
+
 }
+
 
 .knockout {
     background: url("../images/circuit.jpeg") -80px -80px;
@@ -78,14 +81,14 @@ footer{
     text-align: center;
   }
 
-  .container{
+  .container-fluid{
       background: #00cccb;
-      padding: 5px;
       margin: 5px auto;
       margin-bottom: 90px;
       width: 100%;
       height: fit-content;
       text-align: left;
+      padding: 0px;
   }
 
   .headshot{
