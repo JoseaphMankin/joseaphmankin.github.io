@@ -5,7 +5,6 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: Asap, sans-serif;
-    text-align: center;
 }
 
 body{
@@ -51,7 +50,7 @@ a:hover{
 
 .nav{
     background:#662124;
-    margin-bottom: 20px;
+    
     /* border-bottom: 5px solid #00cccb;     */
 }
 
@@ -90,13 +89,20 @@ footer{
   }
 
   .headshot{
-      border-radius: 20%;
+      border-radius: 15%;
+      border: solid 3px #00cccb;
+  }
+
+  .bio{
+      color: black;
+      text-align: left;
   }
 
   .card{
       background: url(../images/circuit.jpeg);
       margin: 0px 10px;
       border: none;
+      text-align: center;
   }
 
   .card-img-top{
