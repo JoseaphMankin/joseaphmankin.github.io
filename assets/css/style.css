@@ -1,36 +1,58 @@
 @import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: Asap, sans-serif;
     text-align: center;
 }
 
 body{
-    background-image: url(../images/paperBack.png);
+    background: #9ca39c;
+    /* background-image: url(../images/paperBack.png); */
+}
+
+header, h1{
+    margin: 0px;
 }
 
 .first-name{
     font-size: 60px;
     color: white;
-    background: #356db9;
+    background:#00cccb;
     padding: 10px;  
     width: 50%;  
     display: inline-block;
     text-align: right;
-
+    
 }
 
 .last-name{
     font-size: 60px;
-    color: #356db9;
+    color: #00cccb;
     background: white;
     padding: 10px;
     width: 50%;
     display: inline-block;
     text-align: left;
+   
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.nav{
+    background:#662124;
+    margin-bottom: 20px;
+    /* border-bottom: 5px solid #00cccb;     */
 }
 
 .nav-item{
@@ -38,7 +60,7 @@ body{
 }
 
 .knockout {
-    background: url("../images/software.jpg") -80px -80px;
+    background: url("../images/circuit.jpeg") -80px -80px;
     color: red;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -51,7 +73,7 @@ body{
   }
 
   .container{
-      background: #e9f8fa;
+      background: #00cccb;
       padding: 5px;
       margin: 5px auto;
       margin-bottom: 90px;
@@ -63,6 +85,31 @@ body{
   .headshot{
       border-radius: 20%;
   }
+
+  .card{
+      background: url(../images/circuit.jpeg);
+      margin: 0px 10px;
+      border: none;
+  }
+
+  .card-img-top{
+    padding: 10px;
+  }
+
+  .card-body{
+      background:#00cccb;
+      margin: 5px;
+  
+  }
+
+  .card-title{
+      color: #662124;
+  }
+
+
+
+  
+
 
 
   
