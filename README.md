@@ -9,7 +9,10 @@ Main Page for Joseaph Mankin - Full Stack Web Developer
   * JavaScript
   * jQuery
   * APIs
-  * Firebase
+  * SQL, MongoDB, Firebase
+  * Node
+  * React and Angular
+
 
 - What is the direct link to my portfolio?
   * The page is hosted here: [MainPortfolio](https://joseaphmankin.github.io/).
