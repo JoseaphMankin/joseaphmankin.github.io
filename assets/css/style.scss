@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
 
+// Color Scheme for Sass
 $colors: (
 	background: #9ca39c,
 	primary: #00cccb,
 	accent: #662124,
 	primary-light: lighten(#00cccb, 40%),
-	primary-dark: darken(#00cccb, 40%),
+	primary-dark: darken(#00cccb, 20%),
 );
 
+//Helper function for color selection
 @function color($color-name) {
 	@return map-get($colors, $color-name);
 }
@@ -91,7 +93,7 @@ a:hover {
 }
 
 .container-fluid {
-	background: #00cccb;
+	background: color(primary);
 	margin: 5px auto;
 	margin-bottom: 90px;
 	width: 100%;
