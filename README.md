@@ -6,11 +6,11 @@ Main Page for Joseaph Mankin - Full Stack Web Developer
 
 -   This portfolio is designed to demonstrate basic understanding of:
     -   HTML
-    -   CSS
+    -   CSS & Sass
     -   JavaScript
     -   jQuery
     -   APIs
-    -   SQL, MongoDB, Firebase
+    -   MySQL, MongoDB, Firebase
     -   Node
     -   React and Angular
 
