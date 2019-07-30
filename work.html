@@ -1,98 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+			integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+			crossorigin="anonymous"
+		/>
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Mankin Portfolio</title>
-    <!-- Added Viewport Line-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Style sheets for Bootstrap, FontAwesome for icons and my own for tweeks -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-        crossorigin="anonymous"></script>
-    <script src="assets/javascript/main.js"></script>
-    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
-</head>
+		<link rel="stylesheet" href="css/main.css" />
+		<title>View My Work</title>
+	</head>
 
-<body>
+	<body>
+		<header>
+			<div class="menu-btn">
+				<div class="btn-line"></div>
+				<div class="btn-line"></div>
+				<div class="btn-line"></div>
+			</div>
 
-    <header>
-        <h1><span class="first-name justify-content-left">Joseaph</span><span class="last-name justify-content-last">Mankin</span></h1>
+			<nav class="menu">
+				<div class="menu-branding">
+					<div class="portrait"></div>
+				</div>
+				<ul class="menu-nav">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">
+							Home
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="about.html" class="nav-link">
+							About Me
+						</a>
+					</li>
+					<li class="nav-item current">
+						<a href="work.html" class="nav-link">
+							My Work
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="contact.html" class="nav-link">
+							How To Reach Me
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link active" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <!-- <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li> -->
+		<main id="work">
+			<h1 class="lg-heading">
+				My
+				<span class="text-secondary">Work</span>
+			</h1>
+			<h2 class="sm-heading">
+				Check out some of my projects...
+			</h2>
+			<!-- <div class="container-fluid">
 
-        </ul>
-
-    </header>
-
-    <div class="container-fluid">
-        <h2 class="knockout">PORTFOLIO</h2>
-
-        <div class="card-group">
-
-                <div class="card">
-                        <a href="https://noregrets-project3.herokuapp.com/">
-                            <img class="card-img-top rotate-center" src="assets/images/siDecal1.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Project 3 - No Regrets</h5>
-                                <p class="card-text">Full MERN Stack App for tracking drinking sessions. Demostrates React and React-Router. Persistance with MongoDB and Mongoose</p>
-                            </div>
-                        </a>
-                    </div>
-
-                <div class="card">
-                        <a href="https://mankin-googlebooks-react.herokuapp.com/">
-                            <img class="card-img-top rotate-center" src="assets/images/siDecal6.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">React Google Books API</h5>
-                                <p class="card-text">Full MERN Stack App that utilizes Google Books API. Demostrates React and React-Router. Persistance with MongoDB</p>
-                            </div>
-                        </a>
-                    </div>
-
-                <div class="card">
-                        <a href="https://clicky-game-mankin.herokuapp.com/">
-                            <img class="card-img-top rotate-center" src="assets/images/siDecal5.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Clicky Game</h5>
-                                <p class="card-text">"Castlevania" themed Memory clicking game made in React. Try to click the 12 characters without clicking the same one twice. If you do, you'll have to start over!</p>
-                            </div>
-                        </a>
-                    </div>
-
-                <div class="card">
-                        <a href="https://mankin-scraper.herokuapp.com/">
-                            <img class="card-img-top rotate-center" src="assets/images/siDecal1.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Scraper</h5>
-                                <p class="card-text">App that scrapes articles from NHL.com and allows users to make notes on the articles they find.
-                                    The application demonstrates the ability to use Cherrio to scrape data from a website and save to a MongoDB database</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="card">
-                            <a href="https://noregrets-project2.herokuapp.com/">
-                                <img class="card-img-top rotate-center" src="assets/images/siDecal4.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">No Regrets</h5>
-                                    <p class="card-text">App that allows users to track their BAC by saving drinks to database. Demos use of Angular Framework, Sequelize ORM and Moment.js</p>
-                                </div>
-                            </a>
-                        </div>
 
                 <div class="card">
                         <a href="https://burger-mankin-sequelize.herokuapp.com/">
@@ -122,16 +91,6 @@
                         </a>
                     </div>
 
-                <div class="card">
-                        <a href="https://friendfinder-mankin.herokuapp.com/">
-                            <img class="card-img-top" src="assets/images/siDecal3.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Friend Finder</h5>
-                                <p class="card-text">"Friend Finder" survey app that matches you with your Board Gaming Personality Type. Demonstrates use of 
-                                    Express and Node.js and uses Materialize as the CSS Framework.</p>
-                            </div>
-                        </a>
-                    </div>
 
             <div class="card">
                 <a href="https://joseaphmankin.github.io/riskit">
@@ -247,31 +206,113 @@
             </div>
 
 
-    </div>
+    </div> -->
+			<div class="projects">
+				<div class="item">
+					<a href="https://noregrets-project3.herokuapp.com/" target="_blank" class="btn-light">
+						<i class="fas fa-eye"></i> No Regrets - React
+					</a>
+					<a href="https://noregrets-project3.herokuapp.com/" target="_blank">
+						<img src="img/projects/noRegretsScreen.jpg" alt="Project" />
+					</a>
 
+					<a href="https://github.com/no-regrets/project_3" target="_blank" class="btn-dark">
+						<i class="fab fa-github"></i> Github
+					</a>
+					<p class="card-text">
+						Full MERN Stack App for tracking drinking sessions. Demostrates React and React-Router.
+						Persistance with MongoDB and Mongoose
+					</p>
 
-    <footer>
+					<!-- <a href="#!" class="btn-white">
+						<i class="fab fa-react"></i><i class="fab fa-html5"></i><i class="fab fa-css3"></i
+						><i class="fab fa-node"></i>
+					</a> -->
+				</div>
+				<div class="item">
+					<a href="https://clicky-game-mankin.herokuapp.com/" class="btn-light" target="_blank">
+						<i class="fas fa-eye"></i> Castlevania Clicky Game
+					</a>
+					<a href="https://clicky-game-mankin.herokuapp.com/" target="_blank">
+						<img src="img/projects/clickyScreen.jpg" alt="Project" />
+					</a>
+					<a href="https://github.com/JoseaphMankin/clicky-game" class="btn-dark" target="_blank">
+						<i class="fab fa-github"></i> Github
+					</a>
+					<p class="card-text">
+						"Castlevania" themed Memory clicking game made in React. Try to click the 12 characters without
+						clicking the same one twice. If you do, you'll have to start over!
+					</p>
+				</div>
+				<div class="item">
+					<a href="https://mankin-googlebooks-react.herokuapp.com/" target="_blank" class="btn-light">
+						<i class="fas fa-eye"></i> React Google Books
+					</a>
+					<a href="https://mankin-googlebooks-react.herokuapp.com/" target="_blank">
+						<img src="img/projects/googleBooksScreen.jpg" alt="Project" />
+					</a>
+					<a href="https://github.com/JoseaphMankin/react-books" target="_blank" class="btn-dark">
+						<i class="fab fa-github"></i> Github
+					</a>
+					<p class="card-text">
+						Full MERN Stack App that utilizes Google Books API. Demostrates React and React-Router.
+						Persistance with MongoDB
+					</p>
+				</div>
+				<div class="item">
+					<a href="https://friendfinder-mankin.herokuapp.com/" target="_blank" class="btn-light">
+						<i class="fas fa-eye"></i> Friend Finder
+					</a>
+					<a href="https://friendfinder-mankin.herokuapp.com/" target="_blank">
+						<img src="img/projects/friendScreen.jpg" alt="Project" />
+					</a>
+					<a href="https://github.com/JoseaphMankin/FriendFinder" target="_blank" class="btn-dark">
+						<i class="fab fa-github"></i> Github
+					</a>
+					<p class="card-text">
+						"Friend Finder" survey app that matches you with your Board Gaming Personality Type.
+						Demonstrates use of Express and Node.js and uses Materialize as the CSS Framework.
+					</p>
+				</div>
+				<div class="item">
+					<a href="https://noregrets-project2.herokuapp.com/" class="btn-light">
+						<i class="fas fa-eye"></i> No Regrets - Angular
+					</a>
+					<a href="https://noregrets-project2.herokuapp.com/" target="_blank">
+						<img src="img/projects/noRegretsAngScreen.jpg" alt="Project" />
+					</a>
+					<a href="https://github.com/no-regrets/project_2" target="_blank" class="btn-dark">
+						<i class="fab fa-github"></i> Github
+					</a>
+					<p class="card-text">
+						App that allows users to track their BAC by saving drinks to database. Demos use of Angular
+						Framework, Sequelize ORM and Moment.js
+					</p>
+				</div>
+				<div class="item">
+					<a href="https://mankin-scraper.herokuapp.com/" target="_blank" class="btn-light">
+						<i class="fas fa-eye"></i> NHL Scraper
+					</a>
+					<a href="https://mankin-scraper.herokuapp.com/" target="_blank">
+						<img src="img/projects/scraperScreen.jpg" alt="Project" />
+					</a>
 
-        <ul class="nav fixed-bottom justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link active" href="https://github.com/JoseaphMankin">
-                    <i class="fa fa-github" style="font-size:30px;color: white"></i>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="https://www.linkedin.com/in/joseaphmankin/">
-                    <i class="fa fa-linkedin" style="font-size:30px;color:white"></i>
-                </a>
-            </li>
-            <!-- <li class="nav-item">
-                <a class="nav-link active" href="https://plus.google.com/u/0/103032525913868314587">
-                    <i class="fa fa-google" style="font-size:30px;color:white"></i>
-                </a>
-            </li> -->
-        </ul>
+					<a href="https://github.com/JoseaphMankin/scraper" target="_blank" class="btn-dark">
+						<i class="fab fa-github"></i> Github
+					</a>
+					<p class="card-text">
+						App that scrapes articles from NHL.com and allows users to make notes on the articles they find.
+						App demonstrates the ability to use Cheerio to scrape data from a website and save to a MongoDB
+						database.
+					</p>
+				</div>
+			</div>
+		</main>
 
+		<footer id="main-footer">
+			Copyright &copy; 2019
+		</footer>
 
-    </footer>
-</body>
-
+		<script src="js/main.js"></script>
+	</body>
 </html>
