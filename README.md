@@ -15,4 +15,7 @@ Main Page for Joseaph Mankin - Full Stack Web Developer
     -   React and Angular
 
 *   What is the direct link to my portfolio?
+
     -   The page is hosted here: [MainPortfolio](https://joseaphmankin.github.io/).
+
+*   Inspired by the awesome tutorial at Traversy Media. [Check It out Here!!](https://www.youtube.com/playlist?list=PLillGF-RfqbYoGoCjKoMOkVznV6aSXKzU)
